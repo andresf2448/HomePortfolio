@@ -1,0 +1,62 @@
+.NavContent{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 120px;
+    font-family: 'Questrial';
+}
+
+.head{
+    margin-left: 40px;
+    font-family: 'Questrial';
+    padding: 10px;
+    transition: .5s;
+    
+    
+}
+
+.head:hover{
+    background-color: rgba(252,117,140,255);
+    border-radius: 5px;
+}
+
+.headRight{
+    margin-left: 50px;
+    margin-right: 100px;
+    font-family: 'Questrial';
+}
+
+.NavContainer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 120px;
+    margin-left: 50px;
+}
+
+.iconMenu{
+    display: none;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px){
+    .NavContainer{
+        display: none;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+}
