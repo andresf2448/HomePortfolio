@@ -47,6 +47,11 @@
     display: flex;
 }
 
+.list1{
+    display: none;
+    list-style: none;
+}
+
 .iconMenu{
     display: none;
     margin-right: 30px;
@@ -55,7 +60,11 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:850px){
+.iconMenu1{
+    display: none;
+}
+
+@media screen and (max-width:950px){
     .list{
         display: none;
         flex-direction: column;
@@ -64,5 +73,20 @@
 
     .iconMenu{
         display: flex;
+        
     }
+
+    .iconMenu1{
+        display: flex;
+        border: none;
+        background-color: white;
+    }
+
+    .list1{
+        display: flex;
+        flex-direction: column;
+        margin-left:70%;
+        margin-top: -10px;
+    }
+
 }
