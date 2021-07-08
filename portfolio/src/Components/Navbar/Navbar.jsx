@@ -16,7 +16,7 @@ export default function Navar() {
                     <span><label className="head">App</label></span>
                     <span><BiSearch className="icon"/></span>
                 </div>
-                <span><GiHamburgerMenu className="iconMenu"/></span>
+                {/* <span><GiHamburgerMenu className="iconMenu"/></span> */}
             </nav>
         </Fragment>
     )
