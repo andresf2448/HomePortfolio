@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import { BiSearch } from 'react-icons/bi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
@@ -9,15 +10,18 @@ export default function Navar() {
             <nav className="NavContent">
                 <label className="logo">Hola</label>
                 <div className="NavContainer">
-                    <span><label className="head">All</label></span>
-                    <span><label className="head">Branding</label></span>
-                    <span><label className="head">Web</label></span>
-                    <span><label className="head">Photography</label></span>
-                    <span><label className="head">App</label></span>
-                    <span><BiSearch className="icon"/></span>
+                    <ul className="list">
+                        <li><Link className="link">All</Link></li>
+                        <li><Link className="link">Branding</Link></li>
+                        <li><Link className="link">Web</Link></li>
+                        <li><Link className="link">Photography</Link></li>
+                        <li><Link className="link">App</Link></li>
+                        <li><BiSearch className="icon"/></li>
+                    </ul>
+                    <GiHamburgerMenu className="iconMenu"/>
                 </div>
-                {/* <span><GiHamburgerMenu className="iconMenu"/></span> */}
             </nav>
+            
         </Fragment>
     )
 }

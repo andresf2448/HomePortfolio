@@ -1,50 +1,29 @@
-@media screen and (max-width:700px){
-    .NavContainer{
-        display: none;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-    
-}/* menor a mayor */
 
-.NavContent{
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-    background-color: brown;
-}
 
 .logo{
     margin-left: 120px;
     font-family: 'Questrial';
 }
 
-.head{
+.NavContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
     margin-left: 40px;
     font-family: 'Questrial';
     padding: 10px;
     transition: .5s;
-    
-    
 }
 
-.head:hover{
+.link:hover{
     background-color: rgba(252,117,140,255);
     border-radius: 5px;
-}
-
-.headRight{
-    margin-left: 50px;
-    margin-right: 100px;
-    font-family: 'Questrial';
-}
-
-.NavContainer{
-    display: flex;
-    justify-content: flex-end;
-
 }
 
 .icon{
@@ -52,6 +31,20 @@
     height: 25px;
     margin-right: 120px;
     margin-left: 50px;
+    cursor: pointer;
+}
+
+.NavContent{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
 }
 
 .iconMenu{
@@ -62,3 +55,14 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:850px){
+    .list{
+        display: none;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .iconMenu{
+        display: flex;
+    }
+}
