@@ -1,0 +1,72 @@
+.containerFooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn1{
+    border: none;
+    background-color: white;
+    color: #fff;
+    padding: 10px 35px 10px 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-family: 'Questrial';
+    letter-spacing: 0.25em;
+    font-size: 12px;
+    transition: 0.3ms;
+    background-color: rgba(252,117,140,255);
+}
+
+.btn1:hover{
+    cursor: pointer;
+}
+
+.iconFooter{
+    margin: 10px;
+}
+
+.dateFooter{
+    margin: 15px;
+    opacity: 0.4;
+    letter-spacing: 0.20em;
+    font-size: 15px;
+}
+
+.color{
+    color: rgba(252,117,140,255);
+    font-family: 'Questrial';
+}
+
+.footerIcons{
+    margin: 15px;
+}
+
+.iconFooter1{
+    margin: 10px;
+    opacity: 0.3;
+}
+
+.iconFooter2{
+    margin: 10px;
+    opacity: 0.3;
+}
+
+.iconFooter3{
+    margin: 10px;
+    width: 20px;
+    opacity: 0.3;
+}
+
+.iconFooter4{
+    margin: 10px;
+    width: 20px;
+    opacity: 0.3;
+}
+
+.iconFooter5{
+    margin: 10px;
+    width: 30px;
+    opacity: 0.3;
+}
