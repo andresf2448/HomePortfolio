@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { BiSearch } from 'react-icons/bi';
 import { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { ImLibrary } from 'react-icons/im';
+import Presentation from "../Presentation/Presentation";
 
 export default function Navar() {
     const [menu, setMenu] = useState(false);
@@ -15,7 +17,7 @@ export default function Navar() {
     return (
         <Fragment>
             <nav className="NavContent">
-                <label className="logo">Hola</label>
+                <ImLibrary className="logo"/>
                 <div className="NavContainer">
                     <ul className="list">
                         <li><Link to="/" className="link">All</Link></li>
@@ -29,16 +31,7 @@ export default function Navar() {
                 </div>
             </nav>
 
-            {menu?<>
-                <ul className="list1">
-                    <li><Link to="/" className="link">All</Link></li>
-                    <li><Link to="/" className="link">Branding</Link></li>
-                    <li><Link to="/" className="link">Web</Link></li>
-                    <li><Link to="/" className="link">Photography</Link></li>
-                    <li><Link to="/" className="link">App</Link></li>
-                    <li><BiSearch className="icon"/></li>
-                </ul>
-            </>:null}
+            <Presentation menu={menu}/>
 
             
         </Fragment>
