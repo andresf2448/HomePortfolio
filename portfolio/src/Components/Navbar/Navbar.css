@@ -22,8 +22,9 @@
 }
 
 .link:hover{
-    background-color: rgba(252,117,140,255);
+    background-color: black;
     border-radius: 5px;
+    color: white;
 }
 
 .icon{

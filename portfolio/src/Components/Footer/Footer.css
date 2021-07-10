@@ -16,7 +16,7 @@
     letter-spacing: 0.25em;
     font-size: 12px;
     transition: 0.3ms;
-    background-color: rgba(252,117,140,255);
+    background-color: rgba(139, 2, 2, 0.89);
 }
 
 .btn1:hover{
@@ -35,7 +35,7 @@
 }
 
 .color{
-    color: rgba(252,117,140,255);
+    color: rgba(139, 2, 2, 0.89);
     font-family: 'Questrial';
 }
 
