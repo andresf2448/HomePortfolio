@@ -44,6 +44,14 @@ let trees = [
       id: 10,
       url: "https://images.unsplash.com/photo-1610823796603-59669e8ee29c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHRyZWV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
+    {
+      id: 11,
+      url: "https://images.unsplash.com/photo-1567647753830-de3fe7ce9f28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRyZWV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    },
+    {
+      id: 12,
+      url: "https://images.unsplash.com/photo-1565138146061-e29b079736c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fHRyZWV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    },
   ];
 
 server.get('/', (req, res) => {
